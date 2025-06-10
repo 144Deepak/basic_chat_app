@@ -1,0 +1,24 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+.chats{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 380px;
+    background-color: white;
+    padding: 5px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    overflow: scroll;
+}
